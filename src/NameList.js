@@ -92,8 +92,8 @@ const NameList = () => {
                     ))}
                 </table>
             </div>
-            <button onClick = {nameSort}> Arrange Table by Surname</button>
-            <button onClick = {filterByGender} > Filter Table By Gender</button>
+            <button onClick = {nameSort}> Arrange Table by Surname (ascending/descending)</button>
+            <button onClick = {filterByGender} > Filter Table By Gender (male/female)</button>
         </div>
      );
 }
