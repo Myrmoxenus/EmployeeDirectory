@@ -27,5 +27,5 @@ MIT
 [Myrmoxenus](https://github.com/Myrmoxenus)
 
 ## Screenshot: 
-![Screenshot of deployed Employee Directory Application ](Images/screenshot.png)
+![Screenshot of deployed Employee Directory Application ](images/screenshot.png)
 
