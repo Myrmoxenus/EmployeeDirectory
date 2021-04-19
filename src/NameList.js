@@ -38,14 +38,36 @@ const NameList = () => {
         retrieveData()}
       });
 
+    const [lastSorted, setLastSorted] = useState('descending')
+
     const nameSort = () => {
+        if(lastSorted === 'descending'){
         userArray.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1)
+        setLastSorted('ascending')
         //Forces react to re-render
         setUser([...userArray])
         }
-    
-    
+        else if(lastSorted === 'ascending'){
+        userArray.sort((a, b) => (a.lastName < b.lastName) ? 1 : -1)
+        setLastSorted('descending')
+        //Forces react to re-render
+        setUser([...userArray])
+        }
+    }
 
+   const [lastGenderFiltered, setLastGenderFiltered] = useState('female')
+
+    const filterByGender = () => {
+    if (lastGenderFiltered === 'female'){  
+        setUser(userArray.filter(user => user.gender === 'male'))
+        setLastGenderFiltered('male')
+    }
+    else if (lastGenderFiltered === 'male') {
+        setUser(userArray.filter(user => user.gender === 'female'))
+        setLastGenderFiltered('female')
+    }
+}
+    
 
     return (
         <div className="NameList">
@@ -71,7 +93,7 @@ const NameList = () => {
                 </table>
             </div>
             <button onClick = {nameSort}> Arrange Table by Surname</button>
-
+            <button onClick = {filterByGender} > Filter Table By Gender</button>
         </div>
      );
 }
