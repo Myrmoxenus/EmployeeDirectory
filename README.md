@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Employee Directory App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Screenshot](#screenshot)
 
-In the project directory, you can run:
+## Description:
+Completed as a homework assignment for Trilogy's Fullstack Web Development Program through Washington University. The purpurpose of the application was to deploy an application through Heroku that was able to manipulate a table in MySQL while following MVC design pattern.
 
-### `npm start`
+The application allows a user to add burgers of a desired name to a list, devour them by pressing a button, and moving the devoured burger into a separate list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage:
+[Click here](https://burgerloggerzl.herokuapp.com/) to access the application deployed on Heroku
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## License: 
+MIT
 
-### `npm test`
+## Contributing: 
+[Myrmoxenus](https://github.com/Myrmoxenus)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshot: 
+![Screenshot of Workout Tracker](public/assets/images/screenshot.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# React Interactive Table Application
+## Table of Contents
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Screenshot](#screenshot)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Description:
+Completed as a homework assignment for Washington University's Fullstack Web Development Program. The purpose of this assignment was to make an employee registry table in React that could be sorted and filtered by managing component state in response to user events.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation: 
+First run npm install to install the required npm dependencies. From there, the application can be run from the command line using "npm run start". Application is also deployed [here on Heroku.
+](https://employee-directory-homework.herokuapp.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage:
+Upon start up the application will call an API to generate 10 random employees. Under the table there are two buttons. The first button allows the user to sort the list in either ascending or descending order according to the employee's surname. The second allows the user to toggle a filter that swaps between male and female employees. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License: 
+MIT
 
-## Learn More
+## Contributing: 
+[Myrmoxenus](https://github.com/Myrmoxenus)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshot: 
+![Screenshot of ReadMe Generator in Use](Images/screenshot.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
