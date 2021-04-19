@@ -56,5 +56,5 @@ MIT
 [Myrmoxenus](https://github.com/Myrmoxenus)
 
 ## Screenshot: 
-![Screenshot of ReadMe Generator in Use](Images/screenshot.png)
+![Screenshot of deployed Employee Directory Application ](Images/screenshot.png)
 
